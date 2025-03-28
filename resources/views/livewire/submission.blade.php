@@ -4,7 +4,10 @@
             {{ $this->form }}
         </div>
         <div class="mt-4">
-            <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded">Submit</button>
+            <x-filament::button class="w-full bg-blue-500 text-white hover:bg-blue-600" type="submit" wire:loading.attr="disabled">
+                Submit
+            </x-filament::button>
         </div>
     </form>
 </div>
+
