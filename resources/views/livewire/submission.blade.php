@@ -32,6 +32,15 @@
         Set To System
     </x-filament::button>
 
+    {{-- Test tailwind classes not working--}}
+    <button class="fi-btn fi-color-custom bg-custom-500 hover:bg-custom-400">
+        Set To System
+    </button>
+
+    <button class="bg-blue-500 text-white px-4 py-2 rounded">
+        Test Button
+    </button>
+
     <form wire:submit="create" class="w-full max-w-md bg-white p-6 rounded shadow">
         <div>
             {{ $this->form }}

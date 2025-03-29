@@ -12,7 +12,10 @@ export default {
     './app/Filament/**/*.php',
     './resources/views/filament/**/*.blade.php',
     './vendor/filament/**/*.blade.php',
+    "./vendor/filament/**/*.php", // Filament PHP files
+    "./app/Filament/**/*.php", // Custom Filament components
   ],
+
   theme: {
     extend: {},
   },
